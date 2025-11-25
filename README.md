@@ -159,7 +159,7 @@ Visit<Cell> aStar = Visits.aStar(grid, manhattan);
 List<Edge<Cell>> path = aStar.run(start);
 ```
 
-Optioally, you can provide a callback that will be called on each explored node when it is visited.
+Optionally, you can provide a callback that will be called on each explored node when it is visited.
 
 ```java
 Visit<Cell> visit = Visits.dijkstra(grid, target);
